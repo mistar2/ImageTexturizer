@@ -3,7 +3,7 @@ import random
 import sys
 
 # Function to add texture to a solid color image
-def add_texture(image_path, variation):
+def add_texture(image_path, variation, dst_img):
     # Load the image
     image = Image.open(image_path)
 
