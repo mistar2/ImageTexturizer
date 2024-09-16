@@ -1,4 +1,4 @@
 Usage:
 
-python3 [src] [dst] [variance]
+python3 it.py [src] [dst] [variance]
 
