@@ -39,7 +39,7 @@ def add_texture(image_path, variation, dst_img):
 
 src_img = sys.argv[1]
 dst_img = sys.argv[2]
-variance = sys.argv[3]
+variance = int(sys.argv[3])
 
 textured_image = add_texture(src_img, variance, dst_img)
 print(f"Textured image saved at: {textured_image}")
